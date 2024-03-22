@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- MAKE YOUR CONTENT MORE ACCESSIBLE BY INCLUDING MACHINE-READABLE METADATA IN YOUR XHTML CODE - USE STANFORD'S DUBLIN CORE METADATA GENERATOR AT http://soap.stanford.edu/plugins/dublincore -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>WEI BAO Group</title>
+    <link rel="stylesheet" type="text/css" href="styles/fixed_textfont_serif.css" media="all" />
+
+    <link rel="stylesheet" href="styles/group_page.css">
+
+    <style>
+        h3::before {
+            content: "• ";
+            /* Additional styling to align the bullet properly with your text may be required */
+        }
+    </style>
+
+</head>
+<body>
+<!--BEGIN TOP RED BAR -->
+<div id="top_navbar">
+    <!-- OPTIONAL TOP NAVIGATION OR TEXT AREA INSIDE RED BAR; BAR EXPANDS HEIGHT AUTOMATICALLY TO ACCOMMODATE CONTENT -->
+    <ul>
+        <li><a href="http://sydney.edu.au/">The University of Sydney</a></li>
+        <li>&raquo; <a href="http://sydney.edu.au/engineering/it/">School of Computer Science</a></li>
+        <li>&raquo; <a href="index.html">Wei Bao</a></li>
+        <li>&raquo; Group</li>
+    </ul>
+
+    <!-- END OF OPTIONAL TOP RED BAR CONTENT -->
+</div>
+<!-- END TOP RED BAR -->
+
+<div id="content_container">
+    <!-- PAGE TITLE AREA AND BOX -->
+    <div id="page_title_area">
+        <!-- STANDARD PAGE TITLE; NO DECORATIVE GRAPHIC -->
+        <div id="page_title_leftcontent">
+            <h1>Welcome to the iNet Group at the University of Sydney!</h1>
+            <ul>
+                <p>Our research group is led by Dr. Wei Bao, a Senior Lecturer in the School of Computer Science at the University of Sydney. Our research interests include distributed computing, machine learning, and network optimisation. We are committed to advancing the state-of-the-art in these areas and contributing to the broader research community. We are always looking for talented and motivated students to join our group. If you are interested in our research, please feel free to contact Dr. Bao.</p>
+        </div>
+    </div>
+
+    <div id="content">
+
+        <!-- Tab Container -->
+        <div id="tab-container" class="clearfix">
+            <div class="tab">
+                <a href="members.html" class="tablinks">Members</a>
+                <a href="research.html" class="tablinks active">Research</a>
+            </div>
+        </div>
+
+        <h2>1. Federated Learning</h2>
+        <div style="text-align:center; margin-top:20px;">
+            <img src="images/figures/1fl.png" style="max-width:100%; height:auto;">
+            <p style="margin-top:10px;">Federated learning in mobile edge computing. Source: [1-1].</p>
+        </div>
+        <p>Federated Learning (FL) is an advanced machine learning technique that allows multiple workers to train a global model based on a distributed dataset. Instead of centralising data on a server, it allows devices to compute model updates locally using their data, improving privacy as sensitive information doesn't leave the device. These model updates are then aggregated on a central server. This approach leverages the computational power of devices with modern processors and high-speed networks for efficient and privacy-preserving machine learning. Our group designs learning algorithms to improve convergence. We also address the challenges posed by the unpredictable nature of wireless networks and various constraints such as device power.
+        </p>
+        <h3>Papers:</h3>
+        <p>[1-1] Z. Yang, W. Bao, D. Yuan, N. H. Tran, and A. Y. Zomaya, "Federated learning with nesterov accelerated gradient," <i>IEEE Transactions on Parallel and Distributed Systems</i>, vol. 33, no. 12, pp. 4863-4873, 2022.</p>
+        <p>[1-2] N. H. Tran, W. Bao, M. N. H. Nguyen, C. S. Hong, and A. Zomaya, "Federated learning over wireless networks: Optimization model design and analysis," in <i> Proceedings of IEEE International Conference on Computer Communications (INFOCOM)</i>, Paris, France, Apr.-May 2019.</p>
+
+        <h2>2. Intelligent Edge</h2>
+        <div style="text-align:center; margin-top:20px;">
+            <img src="images/figures/2deepsave.png" style="max-width:100%; height:auto;">
+            <p style="margin-top:10px;">An experiment of involving handover in edge computing. (a) Android application; (b) system setup; (c) Experiment field. Source: [2-1].</p>
+        </div>
+        <p>Recent advances in artificial intelligence (AI) have led to many intelligent applications such as intelligent personal assistants being developed. These innovations increasingly rely on computational offloading, a process that enables edge devices, which often have limited computing capacity, to run sophisticated applications by offloading heavy computing tasks to more powerful computing resources. However, this technological leap has its challenges, particularly in the context of mobile edge computing. A key issue is the instability caused by the inherent uncertainties of wireless networks. As users move around with mobile devices, they may move out of the coverage area of one access point and into that of another. This handover process can lead to service interruptions, disrupting the seamless experience users expect from AI-driven applications. Our research group is dedicated to addressing this challenge head-on. We aim to develop cutting-edge solutions that enable continuous service, ensuring that mobile devices can seamlessly handover between computing access points without experiencing latency spikes or quality of service degradation.
+        </p>
+
+        <h3>Papers:</h3>
+        <p>[2-1] W. Ju, D. Yuan, W. Bao, L. Ge and B. B. Zhou, "DeepSave: Saving DNN inference during handovers on the edge," in <i>Proceedings of ACM/IEEE Symposium on Edge Computing</i>, Washington, DC, Nov. 2019. </p>
+        <p>[2-2] W. Bao, D. Yuan, Z. Yang, S. Wang, W. Li, B. Zhou, and A. Y. Zomaya, "Follow Me Fog: Towards seamless handover timing schemes in fog computing environment," <i>IEEE Communications Magazine</i>, vol. 55, no. 11, pp. 72-78, Nov. 2017.</p>
+
+        <h2>3. AI-Enhanced networks</h2>
+        <div style="text-align:center; margin-top:20px;">
+            <img src="images/figures/3ai.png" style="max-width:100%; height:auto;">
+            <p style="margin-top:10px;">Illustration of AI-Enhanced video delivery system. Source: [3-1].</p>
+        </div>
+        <p>As network cameras become more ubiquitous, they are becoming critical tools for ensuring public safety and providing critical data in time-sensitive situations, such as rescuing those affected by natural disasters. However, these systems face significant challenges. Camera hardware limitations and network bandwidth constraints degrade video quality. By using the edge computing paradigm and advanced AI algorithms, we are able to improve video quality in real time. In our group, we design network and AI algorithms to provide clearer video, which is essential for real-time surveillance and decision-making.</p>
+        <h3>Papers:</h3>
+        <p>[3-1] L. Ge, W. Bao, D. Yuan, and B. Zhou, “Real-EVE: Real-time Edge-assist Video Enhancement for Joint Denoising and Super-resolution,” in <i> Proceedings of the International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP)</i>, Tianjin, China, Oct. 2023. </p>
+        <p>[3-2] L. Ge, W. Bao, D. Yuan, and B. Zhou, “Edge-assisted deep video denoising and super-resolution for real-time surveillance at night, (Demo)” in <i> Proceedings of the Annual International Conference On
+            Mobile Computing And Networking (MobiCom)</i>, Sydney, Australia, Oct. 2022. </p>
+
+        <h2>4. Scheduling and optimization</h2>
+        <div style="text-align:center; margin-top:20px;">
+            <img src="images/figures/4sch.png" style="max-width:100%; height:auto;">
+            <p style="margin-top:10px;">Example of a scheduling process. Source: [4-2].</p>
+        </div>
+        <p>SScheduling refers to the act of allocating resources to perform tasks. The tasks can be virtual computing tasks, such as threads, processes or streams, which are managed by the scheduler in a multiprocessor system. The goal of scheduling is to optimise one (or more) aspects of system performance, such as power consumption and delay. Our previous experience lies in addressing the challenge of performing deep neural network (DNN) inference tasks on edge computing devices, which are often constrained by fluctuating wireless connections, congested computing resources, and limited local computing capabilities.</p>
+        <h3>Papers:</h3>
+        <p>[4-1] R. Wu, W. Bao, and L. Ge, “Online task assignment with controllable processing time,” in <i> Proceedings of International Joint Conference on Artificial Intelligence (IJCAI)</i>, Macao SAR, Aug. 2023.</p>
+        <p>[4-2] Z. Wang, W. Bao, D. Yuan, L. Ge, N. H. Tran, and A. Y. Zomaya, "SEE: Scheduling early exit for mobile DNN inference during service outage," in <i> Proceedings of ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM) </i>, Miami, FL, Nov. 2019.</p>
+
+    </div>
+
+
+    <div id="sidebar">
+        <h2><a href="index.html">Return to main page</a></h2>
+
+
+        <div id="seal" class="clearfix"></div>
+        <p>"Though the constellations are changed, the mind is the same."</p>
+        <h2>Website Statistics</h2>
+        <a href="http://www.clustrmaps.com/map/rp-www.cs.usyd.edu.au/~weibao/" title="Visitor Map for rp-www.cs.usyd.edu.au/~weibao/"><img src="//www.clustrmaps.com/map_v2.png?u=tdsS&d=HJOBDzatFoCjlC_5ncvuPADw_qyJkgBQmiRA-ak4hQo" /></a>
+    </div>
+
+    <!-- img src="http://iplogger.org/1Pwj3.jpg" -->
+
+
+    <div id="footer">
+    </div>
+</div>
+<!-- end #content -->
+</body>
+</html>

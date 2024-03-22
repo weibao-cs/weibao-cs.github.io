@@ -1,0 +1,55 @@
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    /*border: 1px solid #ddd;*/
+    border: none; /* Makes the border invisible */
+    padding: 8px;
+    vertical-align: middle; /* Vertically centers content */
+    height: 150px; /* Fixed height for all cells */
+}
+
+/* Fix the width of the second column */
+.student-table td:nth-child(2), .student-table th:nth-child(2) {
+    width: 130px;
+}
+
+.student-table .name {
+    font-size: 20px; /* Larger font for student name */
+}
+
+/* Container for the tabs, with sufficient spacing from the content below */
+.tab-container {
+    margin-bottom: 20px; /* Sufficient spacing from the content below */
+    overflow: hidden; /* Clear floats */
+    background-color: #fff; /* Background color matching .margin_comment */
+    border-bottom: 2px solid #f6eada; /* Border color matching .margin_comment */
+}
+
+/* Style adjustments for the tab links to display them inline */
+.tablinks {
+    float: left; /* Align tabs side by side */
+    width: 50%; /* Each tab takes up half the container width */
+    padding: 14px 0; /* Vertical padding */
+    text-align: center; /* Center tab text */
+    background-color: #f6eada; /* Slightly darker background for inactive tab, was #fff */
+    color: #555; /* Text color matching .margin_comment */
+    font-size: 1.5em; /* Font size matching .margin_comment */
+    border: none; /* No border */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s, border-bottom-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover state for tabs (keep as it was to maintain a visual feedback on hover) */
+.tablinks:hover {
+    background-color: #f9f0eb; /* Lighter background color for hover */
+    border-bottom: 3px solid #920000; /* Bottom border for hover indication */
+}
+
+.tablinks.active {
+    background-color: #fff; /* Background color for active tab, was #f6eada */
+    color: #920000; /* Ensuring text color is consistent, might not be necessary if it was already #555 */
+    border-bottom: 3px solid #fff; /* Bottom border for active tab indication, kept the same */
+}
